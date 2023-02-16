@@ -6,7 +6,7 @@ int fun(int array[], int size, int num, int a, int i) {
 
     //i=size-1
 
-    if (i == 0) {
+   if (i == 0) {
         if (num != 0) {
             return num;
         }
@@ -44,7 +44,7 @@ int fun(int array[], int size, int num, int a, int i) {
 int main() {
 
     int size1 = 10;
-    int array[10] = {1, 8, 1, 2, 2, 1, 8, 8, 1, 1};
+    int array[10] = {1, 3, 3, 2, 2, 1, 1, 5, 1, 1};
     cout << fun(array, size1, 0, 0, size1 - 1) << endl;
 
     return 0;
